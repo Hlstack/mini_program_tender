@@ -1,0 +1,14 @@
+<view class="title">{{lstdata.title}}</view>
+<view class="title">{{lstdata.ctime}}</view>
+<view class="bsdeadline">标书购买截止时间: {{lstdata.bsdeadline}}</view>
+<view class="content">开标时间: {{lstdata.deadline}}</view> 
+<view class="content">标书费用形式: {{lstdata.bsfyxs}}</view>
+<view class="content">项目类型: {{lstdata.projectclass}}</view>
+<view class="content">项目编号: {{lstdata.projectcode}}</view>
+<view class="content">项目介绍: {{lstdata.xmjs}}</view>
+<view class="content">招标人: {{lstdata.tenderee}}</view>
+<view class="content">代理机构: {{lstdata.agent}}</view>
+<view class="content">联系人: {{lstdata.contact}}</view>
+<view class="content">电话: {{lstdata.telephone}}</view>
+<view class="divLine"></view>
+<view class="original" data-itemurl="{{lstdata.zb_url}}" bindtap="copytocb">复制公告链接去浏览器打开</view>

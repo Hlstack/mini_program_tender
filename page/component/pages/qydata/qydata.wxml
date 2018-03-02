@@ -1,0 +1,15 @@
+<view class='title'>{{qydata.title}}</view>
+<view class='title'>{{qydata.ctime}}</view>
+<view class="bsdeadline">标书购买截止时间: {{qydata.bsdeadline}}</view>
+<view class="content">开标时间: {{qydata.deadline}}</view> 
+<view class="nicekeywords">关键词: {{qydata.keywords}}</view>
+<view class="content">标书费用形式: {{qydata.bsfyxs}}</view>
+<view class="content">项目类型: {{qydata.projectclass}}</view>
+<view class="content">项目编号: {{qydata.projectcode}}</view>
+<view class="content">项目介绍: {{qydata.xmjs}}</view>
+<view class="content">招标人: {{qydata.tenderee}}</view>
+<view class="content">代理机构: {{qydata.agent}}</view>
+<view class="content">联系人: {{qydata.contact}}</view>
+<view class="content">电话: {{qydata.telephone}}</view>
+<view class="divLine"></view>
+<view class="original" data-itemurl="{{qydata.zb_url}}" bindtap="copytocb">复制公告链接去浏览器打开</view>

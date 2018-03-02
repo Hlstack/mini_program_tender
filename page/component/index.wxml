@@ -1,0 +1,13 @@
+<view class="index">
+  <view class="index-hd">
+    <image class="index-logo" src="resources/kind/logo.png"></image>
+    <view class="index-desc">国家电网招标信息</view>
+  </view>
+  <view wx:key="unique" wx:for="{{logs}}" wx:for-item="value">
+    <view class="index-bd">{{value.ctime}}
+        <view class="kind-list-item">
+          <view data-itemdata="{{value}}" bindtap="toast" class="kind-list-title">{{value.title}}</view>
+        </view>
+    </view>
+  </view>
+</view>

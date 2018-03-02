@@ -1,0 +1,21 @@
+<view class="index">
+  <view class="search-bar">
+    <view class="search-wrap">
+        <icon type="search" size="16" class="icon-search" />
+        <input type="text" placeholder="复合电杆" class="search-input" name="searchKeyword" bindinput="bindKeywordInput" value="{{searchKeyword}}" />
+    </view>
+    <view class="search-cancel" bindtap="keywordSearch">搜索</view>
+  </view>
+
+  <view style="margin-top: 15%;"></view>
+    <view class="index-hd">
+      <view wx:key="unique" wx:for="{{searchResList}}" wx:for-item="value">
+        <view class="index-bd">{{value.ctime}}
+           <view class="kind-list-item">
+              <view data-itemdata="{{value}}" bindtap="toast" class="kind-list-title">{{value.title}}</view>
+              </view>
+           </view>
+        </view>
+      </view> 
+      <view class="loading" hidden="{{!searchLoading}}">正在载入更多...</view>
+</view>

@@ -1,0 +1,28 @@
+.title{
+  font-size: 40rpx;
+  font-family: '黑体';
+  text-align: center;
+  margin-top: 15%;
+  margin: 5%;
+}
+.bsdeadline{
+  font-size: 34rpx;
+  margin-left: 5%;
+}
+.content{
+  font-size: 34rpx;
+  margin-left: 5%;
+  color: #616769;
+}
+.divLine{
+  background: #f3f3f3;
+  width: 100%;
+  margin-top: 20%;
+  height: 5rpx;
+}
+.original{
+  font-size: 40rpx;
+  font-family: '黑体';
+  text-align: center;
+  margin-top: 5%; 
+}
